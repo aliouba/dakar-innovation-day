@@ -1,8 +1,8 @@
 # dakar-innovation-day
 
-[DEmo docker](https://github.com/aliouba/flask-docker)
+[Demo docker](https://github.com/aliouba/flask-docker)
 
-[DEmo docker with CI/CD](https://github.com/aliouba/ci-jenkins-demo)
+[Demo docker with CI/CD](https://github.com/aliouba/ci-jenkins-demo)
 
 # Redis Master
 # Expose Redis Master
