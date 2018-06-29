@@ -1,5 +1,5 @@
 # dakar-innovation-day
-IT innovation Day
+
 [DEmo docker](https://github.com/aliouba/flask-docker)
 
 [DEmo docker with CI/CD](https://github.com/aliouba/ci-jenkins-demo)
