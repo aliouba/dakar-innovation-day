@@ -5,13 +5,30 @@
 [Demo docker with CI/CD](https://github.com/aliouba/ci-jenkins-demo)
 
 # Redis Master
-# Expose Redis Master
-# Redis Slave and Frontend
-# Create Mysql database
 
 git clone https://github.com/aliouba/dakar-innovation-day.git
 
-cd dakar-innovation-day
+cd guestbook/
+
+kubectl create -f redis-master-deployment.yaml
+
+# Expose Redis Master
+
+kubectl create -f redis-master-service.yaml
+
+# Redis Slave and Frontend
+
+kubectl create -f redis-slave-deployment.yaml
+
+kubectl create -f redis-slave-service.yaml
+
+kubectl create -f frontend-deployment.yaml
+
+kubectl create -f frontend-service.yaml
+
+# Create Mysql database
+
+cd ../dakar-innovation-day
 
 kubectl create -f wordpress-demo/mysql/
 
