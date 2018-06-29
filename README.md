@@ -10,7 +10,9 @@
 # Create Mysql database
 
 git clone https://github.com/aliouba/dakar-innovation-day.git
+
 cd dakar-innovation-day
+
 kubectl create -f wordpress-demo/mysql/
 
 # Create Wordpress instance
