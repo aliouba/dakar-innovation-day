@@ -34,7 +34,7 @@ kubectl create -f wordpress-demo/mysql/
 
 # Create Wordpress instance
 
-kubectl create -f wordpress-demo/mysql/
+kubectl create -f wordpress-demo/woordpress/
 
 # Create Ingress resource
 
