@@ -38,5 +38,6 @@ kubectl create -f wordpress-demo/wordpress/
 
 # Create Ingress resource
 
+kubectl create -f wordpress-demo/wordpress-ing/
 
 
