@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: testdakario
+spec:
+  tls:
+  - secretName: wild.dakar.io
+    hosts:
+    - test.dakar.io
+  rules:
+  - host: test.dakar.io
+    http:
+      paths:
+      - backend:
+          serviceName: wordpressing
+          servicePort: 80
