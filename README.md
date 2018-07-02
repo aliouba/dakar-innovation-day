@@ -26,6 +26,8 @@ kubectl create -f frontend-deployment.yaml
 
 kubectl create -f frontend-service.yaml
 
+(Optional) kubectl scale deploy frontend --replicas 4
+
 # Create Mysql database
 
 cd ../dakar-innovation-day
