@@ -48,6 +48,4 @@ kubectl create -f wordpress-demo/mysql/
 
 kubectl create -f wordpress-demo/wordpress-ing/
 
-kubectl create -f wordpress-demo/wordpress-ing/
-
 
