@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: myingress
+spec:
+  rules:
+  - host: test.wade.dakar.io
+    http:
+      paths:
+      - backend:
+          serviceName: frontend
+          servicePort: 80
